@@ -1,0 +1,200 @@
+.preloaderbar {
+  z-index: 1;
+  position: absolute;
+  top:140px;
+  left: 0;
+  right: 0;
+  height: 35px;
+  margin-bottom: -4px
+}
+#aq_1{
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 50%;
+}
+.preloaderbar .bar {
+  position: absolute;
+  width: 100%;
+  
+  height: 0;
+  text-indent: -9999px;
+  background-color: #23b7e5
+}
+
+.preloaderbar .bar:before {
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  height: 35px;
+  background-color: inherit;
+  content: ""
+}
+
+.preloaderbar.active {
+  -webkit-animation: changebar 2.25s infinite 0.75s;
+  -moz-animation: changebar 2.25s infinite 0.75s;
+  animation: changebar 2.25s infinite 0.75s;
+}
+
+.preloaderbar.active .bar {
+  -webkit-animation: changebar 2.25s infinite;
+  -moz-animation: changebar 2.25s infinite;
+  animation: changebar 2.25s infinite;
+}
+
+.preloaderbar.active .bar:before {
+  -webkit-animation: movingbar 3s infinite;
+  -moz-animation: movingbar 3s infinite;
+  animation: movingbar 3s infinite
+}
+
+@-webkit-keyframes movingbar {
+  0% {
+      right: 50%;
+      left: 50%
+  }
+
+  99.9% {
+      right: 0;
+      left: 0
+  }
+
+  100% {
+      right: 50%;
+      left: 50%
+  }
+}
+
+@-moz-keyframes movingbar {
+  0% {
+      right: 50%;
+      left: 50%
+  }
+
+  99.9% {
+      right: 0;
+      left: 0
+  }
+
+  100% {
+      right: 50%;
+      left: 50%
+  }
+}
+
+@keyframes movingbar {
+  0% {
+      right: 50%;
+      left: 50%
+  }
+
+  99.9% {
+      right: 0;
+      left: 0
+  }
+
+  100% {
+      right: 50%;
+      left: 50%
+  }
+}
+
+@-webkit-keyframes changebar {
+  0% {
+      background-color: #8BC34A
+  }
+
+  33.3% {
+      background-color: #8BC34A
+  }
+
+  33.33% {
+      background-color: #FFCA28
+  }
+
+  66.6% {
+      background-color: #FFCA28
+  }
+
+  66.66% {
+      background-color: #F44336
+  }
+
+  99.9% {
+      background-color: #F44336
+  }
+}
+
+@-moz-keyframes changebar {
+  0% {
+      background-color: #8BC34A
+  }
+
+  33.3% {
+      background-color: #8BC34A
+  }
+
+  33.33% {
+      background-color: #FFCA28
+  }
+
+  66.6% {
+      background-color: #FFCA28
+  }
+
+  66.66% {
+      background-color: #F44336
+  }
+
+  99.9% {
+      background-color: #F44336
+  }
+}
+
+@keyframes changebar {
+  0% {
+      background-color: #8BC34A
+  }
+
+  33.3% {
+      background-color: #8BC34A
+  }
+
+  33.33% {
+      background-color: #FFCA28
+  }
+
+  66.6% {
+      background-color: #FFCA28
+  }
+
+  66.66% {
+      background-color: #F44336
+  }
+
+  99.9% {
+      background-color: #F44336
+  }
+}
+#l_3{
+  margin-top: 40px;
+}
+#im_1{
+  margin-top: 25px;
+}
+
+.jss547 {
+  width: 48px;
+  padding-top: 4px;
+  border-bottom: 4px solid #faa619;
+}
+.jss546 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-bottom: 24px;
+  
+}
